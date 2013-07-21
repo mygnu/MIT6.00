@@ -1,10 +1,13 @@
+#!/usr/bin/env python
 
-x = -27 # int(input('Enter an Integer: ')) #  prompts for Input
+''' This program finds the cuberoot of x'''
 
-epsilon = 0.00001
+x = 5000.78996 # int(input('Enter an Integer: ')) #  prompts for Input
+
+epsilon = 0.000001
 numGuess = 0
 low = 0
-high = abs(x)
+high = abs(max(1,x))
 ans = 0 # our guess starts at 0
 
 ##while the cube root of our guess is less than value of x
@@ -29,5 +32,6 @@ else:
         ans = (high+low)/2
     if x <0:
         ans = -ans
-    print(ans,'is the closest square root of',x)
+    print(ans,'is the closest Cube root of',x)
     print('number of guesses',numGuess+guess)
+    print(ans**3)

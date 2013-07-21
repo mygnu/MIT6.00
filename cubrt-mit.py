@@ -1,5 +1,4 @@
 
-
 x = 25     # int(input('Enter an Integer: ')) # prompts for Input
 
 
@@ -20,7 +19,7 @@ while ans**3 < abs(x):
         if abs(ans**2-x) >= epsilon:
             print('Failed to guess the sq of',x)
         else:
-            print(ans,'is close to the square root of',x)
+            print(ans,'is close to the Cube root of',x)
             
 else:
     if x <0:

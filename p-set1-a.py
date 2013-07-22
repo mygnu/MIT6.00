@@ -1,6 +1,6 @@
-bal = 1000.00      #float(input('Balance on the credit Card:'))
-anint = 10      #float(input('Annual Interest Rate: '))
-minp =3.0          #float(input('Minimum monthly repayment rate as percentage: '))
+bal = float(input('Balance on the credit Card:'))
+anint = float(input('Annual Interest Rate: '))
+minp = float(input('Minimum monthly repayment rate as percentage: '))
 tpaid=0
 
 print('Balance=',bal,'\nInterest Rate=',anint,'%', '\

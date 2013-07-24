@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+## This is my version of soluton with bisectional search 
 
 
 balance = 10000 #float(input('Balance on the credit Card:'))
